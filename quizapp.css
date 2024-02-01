@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,p[id="p"],h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+#conainer { 
+    width:50%;
+}
+#conainer #preview{
+    border: solid 1px black;
+    margin: 10px auto;
+    padding: 40px 20px;
+    height: auto;
+    
+}
+p[id="multi"]{
+    display: flex;
+    justify-content: start;
+}
+p[id="multi"] #correct{
+    margin-left: 20px;
+    color: green;
+}
+p[id="multi"] #notcorrect{
+    margin-left: 20px;
+    color: red;
+}
+#conainer .button{
+    border-radius: 5px;
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#conainer #p{
+    margin: 2% auto;
+}
+#conainer .button button:hover{
+    color: #f1ebeb;
+    cursor: pointer;
+    background-color: rgb(245, 76, 76);
+}
